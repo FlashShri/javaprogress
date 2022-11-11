@@ -2,7 +2,7 @@ package problems;
 
 public class Test {
     public static void main(String[] args) {
-        int num= 3545;
+       // int num= 3545;
         int num1=8;
 
       int  temp= num1;
