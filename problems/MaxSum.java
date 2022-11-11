@@ -13,9 +13,28 @@ public class MaxSum {
             {2,22,111,4},
         };
 
-       System.out.println(maxCoin(arr)); 
+       System.out.println(maxCoin(arr)+ "person has max coins"); 
+
+       System.out.println("Richest person has "+maxval(arr)+" coins");
 
         
+    }
+
+    public static int maxval(int[][] arr){
+       
+         int max=0;
+         for(int i=0;i<arr.length;i++){
+            int s=0;
+            for(int j=0;j<arr[i].length;j++){
+              
+                s=s+arr[i][j];
+            }
+            if(s>max){
+                max=s;
+            }
+        }
+        return max;
+
     }
 
     public static int maxCoin(int[][] arr){
