@@ -33,9 +33,9 @@ public class SearchEx2 {
         int digitcount=0;
         for(int i=0 ; i <arr.length ;i++){
             while(arr[i]>0){
-                int temp=arr[i]/10;
                 digitcount++;
-                arr[i]=temp;
+                arr[i]=arr[i]/10;
+            
             }
 
             if(digitcount%2==0){
