@@ -2,9 +2,9 @@
 
 public class BsearchEx1 {
     public static void main(String[] args) {
-        int[] arr={4,6,8,22,32,41,46,54,86}; //sorted array acending order
+        int[] arr={-6,-4,-2,1,4,6,8,22,32,41,46,54,86}; //sorted array acending order
 
-       System.out.println(findnum(arr,6)); 
+       System.out.println(findnum(arr,-2)); 
     }
     public static int findnum(int[] arr, int num){
         int start=0;
