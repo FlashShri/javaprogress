@@ -1,4 +1,4 @@
-package problems;
+package problems; 
 
 public class BsearchEx1 {
     public static void main(String[] args) {
