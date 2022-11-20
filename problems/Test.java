@@ -24,5 +24,23 @@ public class Test {
         }
 
         System.out.println(sum);
-    }
+        double x = 1.0;  
+  double y = 3.0;
+  double z = Math.pow( x, y );
+  System.out.print(z);
+
+  try {
+    
+  } catch (Exception e) {
+    // TODO: handle exception
+    System.out.println(434);
+    throw new Exception();
+} finally {
+throw new ArithmeticException();
 }
+  }
+    }
+
+ 
+
+  
